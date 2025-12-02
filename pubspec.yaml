@@ -1,0 +1,82 @@
+name: movies_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  flutter_screenutil: ^5.9.3
+  flutter_native_splash: ^2.4.4
+  flutter_svg: ^2.2.0
+  carousel_slider: ^5.1.1
+  google_fonts: ^6.2.1
+  animated_widgets: ^1.1.0
+  provider: ^6.1.5
+  http: ^1.4.0
+  google_sign_in: ^6.1.0
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.0
+  intl: ^0.19.0
+  gen_l10n_utils: ^1.4.0
+  flutter_switch: ^0.3.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.8
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/splash_screen_images/
+    - assets/images/onboarding_images/
+    - assets/icons/
+    - assets/images/auth_images/
+    - assets/images/home_tap/
+    - assets/images/explore_tap/
+    - assets/images/update_profile_images/
+    - assets/icons/update_profile_icons/
+    - assets/icons/profile_tab_icons/
+    - assets/icons/movie_details_icon/
+    - assets/images/profile_tab_images/
+    - assets/images/search_tap/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto_font/Roboto-Black.ttf
+          weight: 500
+        - asset: assets/fonts/roboto_font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/roboto_font/Roboto-ExtraBold.ttf
+          weight: 900
+        - asset: assets/fonts/roboto_font/Roboto-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/roboto_font/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/roboto_font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/roboto_font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/roboto_font/Roboto-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/roboto_font/Roboto-Thin.ttf
+          weight: 100
+flutter_intl:
+  enabled: true
